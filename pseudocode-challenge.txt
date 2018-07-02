@@ -1,0 +1,110 @@
+Soal nomor 1
+ALGORITMA
+MENGHITUNG RESULTAN GAYA
+------------------------
+1. memasukkan nilai massa mobil 600kg
+2. memasukkan nilai percepatan 2 m/s2
+3. menghitung resultan gaya pada mobil dengan rumus
+    resultan gaya(F) = massa mobil (m) * percepatan benda (a)
+4. memasukkan hasil perhitungan ke dalam variable resultan gaya (f)
+5. tampilkan hasil resultan gaya
+
+PSEUDOCODE
+----------
+STORE 'M' with 600
+STORE 'a' with 2
+STORE 'F' without any value
+
+CALCULATE 'M'multiply 'a'
+SET 'F' = 'M' * 'a'
+
+DISPLAY 'F'
+-------------------------------------------------------
+Soal nomor 2
+ALGORITMA
+---------
+1. masukkan tahun
+2. menentukan kriteria tahun kabisat
+2. cek apakah termasuk tahun kabisat atau tidak
+3. modulus tahun dengan nilai 4
+    3.a jika habis lanjut ke step no.4
+    3.b jika tidak lanjut ke step no.6
+4. modulus tahun dengan nilai 100
+    4.a jika habis lanjut ke step no.5
+    4.b jika tidak lanjut ke step no.7
+5. modulus tahun dengan nilai 400
+    5.a jika habis lanjut ke step no.7
+    5.b jika tidak lanjut ke step no.6
+6.tampilkan 'BUKAN KABISAT'
+7. tampilkan "TAHUN KABISAT'
+
+PSEUDOCODE
+----------
+STORE 'tahun' with any value
+SET remainder = 'tahun' % 4
+SET remainder2 = 'tahun' % 100
+SET remainder3 = 'tahun' % 400
+IF 'remainder' equal to 0
+    IF 'remainder2' equal to 0
+        IF 'remainder3' equal to 0
+            DISPLAY 'TAHUN KABISAT'
+        ELSE
+            DISPLAY 'BUKAN TAHUN KABISAT'
+        END IF
+    ELSE
+        DISPLAY 'TAHUN KABISAT'
+    END IF
+ELSE
+    DISPLAY 'BUKAN TAHUN KABISAT'
+END IF
+---------------------------------------------------
+Soal nomor 3
+ALGORITMA
+---------
+1. memasukkan jumlah baju yang akan di cuci yaitu 20
+2. memasukkan baju 1 per 1 kedalam mesin cuci
+3. mulai menghitung jumlah baju yang akan di cuci
+    3.a jika counter lebih kecil dari jumlah baju
+        counter ditambah 1 dan terus menghitung
+    3.b jika counter lebih besar atau sama dengan jumlah baju
+        nyalakan mesin cuci
+4. selesai
+
+PSEUDOCODE
+----------
+STORE 'jumlahBaju' with 20
+STORE 'counter' with 1
+
+WHILE 'counter' LESS THAN OR EQUAL 'jumlahBaju' DO
+    DISPLAY 'counter'
+    SET 'counter' = 'counter' + 1
+END WHILE
+------------------------------------------------------------
+Soal nomor 4
+ALGORITMA
+1. menghitung jumlah murid yang berjumlah 40 orang
+2. mulai memeriksa kuku murid 1 per 1
+    2.a jika murid berkuku panjang berikan hukuman dan lanjut ke murid selanjutnya
+    2.b jika berkuku pendek berikan pujian dan lanjut ke murid selanjutnya
+3. periksa semua kuku 40 murid
+4. selesai
+
+PSEUDOCODE
+----------
+*** misal yang berkuku panjang adalah yang nomor urutnya habis dibagi 4 ***
+
+STORE 'jumlahSiswa' with 40
+STORE 'counter' with 0
+
+WHILE 'counter' LESS THAN 'jumlahSiswa DO
+    SET 'counter' = 'counter' + 1
+    DISPLAY 'counter'
+    CALCULATE 'counter' mod 4
+    IF result of calculaltion EQUAL to 0
+        DISPLAY "kuku panjang, beri hukuman"
+    ELSE
+        DISPLAY "kuku pendek, puji"
+    END IF
+END WHILE
+    
+
