@@ -7,6 +7,7 @@ for(var i = 0; i < 5; i++){
 
 // do loops to display asterisks in the console.
 console.log('---------------------------------------');
+console.log('Exercises7 no.2');
 var rows2= 10; // input the number of rows
 for(var i = 0; i < rows2; i++){
     asterix = '';
@@ -19,6 +20,7 @@ for(var i = 0; i < rows2; i++){
 // }
 // do loops to display asterisks in the console.
 console.log('---------------------------------------');
+console.log('Exercises7 no.3');
 var rows3 = 3;
 var bintang = ''
 for(var l = 0; l < rows3 ; l++){
