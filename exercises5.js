@@ -43,7 +43,7 @@ console.log('Fourth Word: ' + fourthWord3);
 console.log('Fifth Word: ' + fifthWord3);
 
 console.log('-------------------------------------------------');
-console.log('Exercises 5 no.3');
+console.log('Exercises 5 no.4');
 
 var word4 = 'wow JavaScript is so cool';
 var exampleFirstWord4 = word.substring(0, 3);
