@@ -21,7 +21,7 @@ for(var i = 0; i < rows2; i++){
 // do loops to display asterisks in the console.
 console.log('---------------------------------------');
 console.log('Exercises7 no.3');
-var rows3 = 3;
+var rows3 = 9;
 var bintang = ''
 for(var l = 0; l < rows3 ; l++){
     bintang += "*"
